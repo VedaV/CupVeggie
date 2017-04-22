@@ -406,6 +406,7 @@
 				99DA6FF41E9020B8008EB2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99DA6FF51E9020B8008EB2F5 /* Build configuration list for PBXNativeTarget "CupVeggieTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				99DA6FF71E9020B8008EB2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
