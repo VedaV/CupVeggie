@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1wB-XO-dDt">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wB-XO-dDt">
                                 <rect key="frame" x="58" y="44" width="240" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -30,6 +30,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHS-Qm-l7r">
                                 <rect key="frame" x="39" y="434" width="46" height="30"/>
@@ -48,6 +49,80 @@
             <point key="canvasLocation" x="894" y="-238"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4Zo-N2-rRw">
+            <objects>
+                <viewController id="FND-6Q-hfm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqc-eQ-mRd"/>
+                        <viewControllerLayoutGuide type="bottom" id="J5G-m8-a7N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S8t-Od-xaf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3z-Ji-ECy">
+                                <rect key="frame" x="22" y="531" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="mwL-vT-5tD"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93d-t8-US3">
+                                <rect key="frame" x="67" y="73" width="240" height="216.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">TIMING:                                             Sunday-Wedesday: 11AM - 11PM   Thursday-Saturday: 11AM - 10PM  ADDRESS:                                      19369 Stevens Creek Blvd #130, Cupertino, CA 95014                    DESCRIPTION:                                  Elevated menu of burgers, mains, local brews &amp; whiskey in stylish, bustling environs.                         WEBSITE:                                          eurekarestaurantgroup.com</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kKH-Sl-52W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1292" y="-602.24887556221893"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hou-rb-11l">
+            <objects>
+                <viewController id="DqE-rR-svK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dhc-jh-CuX"/>
+                        <viewControllerLayoutGuide type="bottom" id="tyI-c7-DaP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mwQ-7q-hqg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuR-e7-SJs">
+                                <rect key="frame" x="22" y="545" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="eUf-0Y-YRE"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGC-He-32b">
+                                <rect key="frame" x="67" y="89" width="240" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">TIMING:                                            Sunday-Thursday:11AM - 9PM         Friday-Saturday: 11AM - 10PM         ADDRESS:                                        19409 Stevens Creek Blvd #140, Cupertino, CA 95014                        DESCRIPTION:                                        Here you can customize your own pizza to fit your own tast.           WEBSITE:                                      http://www.pieology.com</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yjt-TY-q1s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1876" y="447.52623688155927"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="aG1-ga-7Ek">
             <objects>
                 <viewController id="nCn-h7-nEH" sceneMemberID="viewController">
@@ -59,13 +134,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pj2-II-gJn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pj2-II-gJn">
                                 <rect key="frame" x="44" y="44" width="240" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">TIMING:                                      Sunday- Thursday: 10AM-11PM        Friday-Saturday:10Am-12AM         ADDRESS:                                                  10710 S De Anza Blvd, Cupertino, CA 95014                                       DESCRIPTION:                                    Taco Bell offers a wide range of food avalible from vegetarians, from burritos to chilupas. Almost all meat meals are available in vegetarian too.                                WEBSITE:                                          https://www.tacobell.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0m-IJ-RCX">
                                 <rect key="frame" x="26" y="414" width="46" height="30"/>
@@ -103,13 +179,14 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="06v-MP-3Uc"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DU8-78-Doj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DU8-78-Doj">
                                 <rect key="frame" x="67" y="97" width="240" height="183.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">TIMING:                                          Sunday-Saturday: 11AM-9;30PM   ADDRESS:                                         10971 N Wolfe Rd, Cupertino, CA 95014                                             Description:                                      Tofu place offers a variety of burgers for a reasonable price.      WEBSITE:                                         (No website was given)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -139,13 +216,14 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="ZTz-HB-ZBZ"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ia3-Gg-0Um">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ia3-Gg-0Um">
                                 <rect key="frame" x="80" y="97" width="240" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">TIMING:                                                          Sunday-Saturday:11:30AM–2PM,     5–9PM                                              ADDRESS:                                             10145 N De Anza Blvd, Cupertino, CA 95014                                            DESCRIPTION:                                     Big menu of familiar Chinese dishes with vegetarian options &amp; seasonal specials in an upscale space.                                               WEBSITE:                                           urbanspoon.com</mutableString>
+                                <string key="text">TIMING:                                                          Sunday-Saturday:11:30AM–2PM,     5–9PM                                              ADDRESS:                                             10145 N De Anza Blvd, Cupertino, CA 95014                                            DESCRIPTION:                                     Big menu of familiar Chinese dishes with vegetarian options &amp; seasonal specials in an upscale space.                                               WEBSITE:                                           urbanspoon.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -167,13 +245,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nid-iC-Geg">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nid-iC-Geg">
                                 <rect key="frame" x="77" y="57" width="240" height="216.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">TIMING:                                            Monday: 11AM-2PM                         Tuesday-Sunday: 11AM-2PM            ADDRESS:                                   10700 S De Anza Blvd, Cupertino, CA 95014                                      DESCRIPTION:                                  Serves simple Japanese style plates along with seafood.                             WEBSITE:                                        http://places.singleplatform.com/yoshida/menu?ref=google</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZU-Zc-MJb">
                                 <rect key="frame" x="61" y="413" width="46" height="30"/>
@@ -190,6 +269,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JV2-RG-Cy7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="365.60000000000002" y="-601.34932533733138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wue-s8-LNK">
+            <objects>
+                <viewController id="F2O-Su-ahk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GJ8-uy-3Y0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z5r-tQ-f3t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E3K-VS-cFm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJe-Pa-ICe">
+                                <rect key="frame" x="22" y="529" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="x5q-Pm-paf"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpI-Ar-3eM">
+                                <rect key="frame" x="67" y="71" width="240" height="183.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">TIMING:                                            Sunday-Monday:9AM - 7:30PM       ADDRESS:                                           19700 Vallco Pkwy #160, Cupertino, CA 95014                                           DESCRIPTION:                                    These are nice bowl of veggies and smoothies                                        WEBSITE:                                          http://vitalitybowls.com    </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGa-Wg-fhC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1551.2" y="-239.73013493253376"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="puH-3o-Agr">
@@ -211,13 +327,14 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="qMC-Nn-Gk1"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-BM-x52">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-BM-x52">
                                 <rect key="frame" x="36" y="73" width="240" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">TIMING:                                           Monday-Sunday:10AM-7PM        ADDRESS:                                        21000 Stevens Creek Blvd, Cupertino, CA 95014                     DESCRIPTION:                                  This is a casual, bustling chain serving a menu of creative sandwiches, including vegan options.                                            WEBSITE                                         places.singleplatform.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -339,7 +456,7 @@
                                         <rect key="frame" x="0.0" y="498" width="70" height="82"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C8EBA51A-56BB-4E5E-A8FD-BC996DFFED7A" translatesAutoresizingMaskIntoConstraints="NO" id="UWZ-rl-emh">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EA773D93-4EE9-4A2A-A5A7-C292EC2D8917" translatesAutoresizingMaskIntoConstraints="NO" id="UWZ-rl-emh">
                                         <rect key="frame" x="0.0" y="81" width="70" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -409,7 +526,26 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zU7-Eh-XU1">
                                 <rect key="frame" x="276" y="316" width="99" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Vitality Bowls"/>
+                                <connections>
+                                    <segue destination="F2O-Su-ahk" kind="presentation" id="dJi-hw-MoJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZ1-op-xao">
+                                <rect key="frame" x="276" y="399" width="99" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pieology"/>
+                                <connections>
+                                    <segue destination="DqE-rR-svK" kind="presentation" id="nth-9c-4Ta"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFs-V2-b1I">
+                                <rect key="frame" x="276" y="482" width="99" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Eureka"/>
+                                <connections>
+                                    <segue destination="FND-6Q-hfm" kind="presentation" id="WLb-xN-eh6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -431,13 +567,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="opM-mE-uW2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opM-mE-uW2">
                                 <rect key="frame" x="55" y="96" width="240" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">TIMINGS:                                         Monday-Saturday:11AM-10PM      Sunday:12PM-9PM                          ADDRESS:                                        - 21267 Stevens Creek Blvd #311340, Cupertino, CA 95014      DESCRIPTION:                                Serves a variety of diffrent Thai foods from soups to noodles.   WEBSITE:                                http://thaisquarecupertino.com/10476http://thaisquarecupertino.com/10476                                                                                        </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="os1-Ba-1me">
                                 <rect key="frame" x="38" y="415" width="34" height="30"/>
@@ -482,13 +619,14 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="JrN-J7-1ey"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zGj-ak-fwn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGj-ak-fwn">
                                 <rect key="frame" x="55" y="40" width="240" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">TIMING:                                            Sunday:8AM-9PM                          Monday-Thursday:7AM-9PM        Friday: 7AM-10PM                         Saturday:8AM-10PM                    ADDRESS:                                        19399 Stevens Creek Blvd #5, Cupertino, CA 95014                     DESCRIPTION:                               This place offers a unique style of salads as well as other burritos.  WEBSITE:                                           seamless.com, grubhub.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -518,13 +656,14 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="ieT-xo-vLS"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IC4-j3-hpz">
-                                <rect key="frame" x="52" y="56" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC4-j3-hpz">
+                                <rect key="frame" x="52" y="56" width="240" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">TIMING:                                           Monday-Saturday: 6AM-9PM               Sunday: 7AM-9PM                              ADDRESS:                                            20807 Stevens Creek Blvd, Cupertino, CA 95014                        DESCRIPTION:                                     Big menu of familiar Chinese dishes with vegetarian options &amp; seasonal specials in an upscale space.         WEBSITE:                                            urbanspoon.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -546,7 +685,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I08-py-PlR">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I08-py-PlR">
                                 <rect key="frame" x="57" y="28" width="240" height="384"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -554,6 +693,7 @@
                           </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEr-lJ-zB6">
                                 <rect key="frame" x="39" y="465" width="81" height="99"/>
@@ -573,7 +713,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="C8EBA51A-56BB-4E5E-A8FD-BC996DFFED7A" width="245" height="206">
+        <image name="EA773D93-4EE9-4A2A-A5A7-C292EC2D8917" width="245" height="206">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -3172,6 +3312,6 @@ Al4RAAJeFAACXhkAAAAAAAAEAQAAAAAAAAA+AAAAAAAAAAAAAAAAAAJeGw
         <image name="Image-1" width="250" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ieT-xo-vLS"/>
+        <segue reference="06v-MP-3Uc"/>
     </inferredMetricsTieBreakers>
 </document>
