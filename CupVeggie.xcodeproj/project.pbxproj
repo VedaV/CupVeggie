@@ -10,7 +10,7 @@
 		99DA6FD91E9020B8008EB2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA6FD81E9020B8008EB2F5 /* AppDelegate.swift */; };
 		99DA6FDB1E9020B8008EB2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA6FDA1E9020B8008EB2F5 /* ViewController.swift */; };
 		99DA6FDE1E9020B8008EB2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DA6FDC1E9020B8008EB2F5 /* Main.storyboard */; };
-		99DA6FE01E9020B8008EB2F5 /* Pictures in Resources */ = {isa = PBXBuildFile; fileRef = 99DA6FDF1E9020B8008EB2F5 /* Pictures */; };
+		99DA6FE01E9020B8008EB2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DA6FDF1E9020B8008EB2F5 /* Assets.xcassets */; };
 		99DA6FE31E9020B8008EB2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DA6FE11E9020B8008EB2F5 /* LaunchScreen.storyboard */; };
 		99DA6FEE1E9020B8008EB2F5 /* CupVeggieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA6FED1E9020B8008EB2F5 /* CupVeggieTests.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +30,7 @@
 		99DA6FD81E9020B8008EB2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99DA6FDA1E9020B8008EB2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99DA6FDD1E9020B8008EB2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99DA6FDF1E9020B8008EB2F5 /* Pictures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Pictures; path = CupVeggie/Pictures; sourceTree = SOURCE_ROOT; };
+		99DA6FDF1E9020B8008EB2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99DA6FE21E9020B8008EB2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99DA6FE41E9020B8008EB2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99DA6FE91E9020B8008EB2F5 /* CupVeggieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupVeggieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +80,7 @@
 				99DA6FD81E9020B8008EB2F5 /* AppDelegate.swift */,
 				99DA6FDA1E9020B8008EB2F5 /* ViewController.swift */,
 				99DA6FDC1E9020B8008EB2F5 /* Main.storyboard */,
-				99DA6FDF1E9020B8008EB2F5 /* Pictures */,
+				99DA6FDF1E9020B8008EB2F5 /* Assets.xcassets */,
 				99DA6FE11E9020B8008EB2F5 /* LaunchScreen.storyboard */,
 				99DA6FE41E9020B8008EB2F5 /* Info.plist */,
 			);
@@ -180,7 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DA6FE31E9020B8008EB2F5 /* LaunchScreen.storyboard in Resources */,
-				99DA6FE01E9020B8008EB2F5 /* Pictures in Resources */,
+				99DA6FE01E9020B8008EB2F5 /* Assets.xcassets in Resources */,
 				99DA6FDE1E9020B8008EB2F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
