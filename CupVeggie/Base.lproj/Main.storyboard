@@ -108,10 +108,11 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Pho Hoa description" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-gM-CsG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-gM-CsG">
                                 <rect key="frame" x="25" y="335" width="240" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">At Pho Hoa, our passion is simple: to make a healthier Vietnamese Pho noodle soup that offers the same robust flavors and aromas of traditional pho. That's why we've revolutionized the way pho is made! Instead of using a customary bone marrow broth, which is extremely high in calories and cholesterol, we use the highest quality meats to produce our soups.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1002,7 +1003,7 @@
                                         <rect key="frame" x="0.0" y="335" width="83" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="E50337B3-A7C6-4690-81C0-0AB38004D0C0" translatesAutoresizingMaskIntoConstraints="NO" id="UWZ-rl-emh">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5FF469CC-B4AD-49E9-9660-A02B7F6CFF01" translatesAutoresizingMaskIntoConstraints="NO" id="UWZ-rl-emh">
                                         <rect key="frame" x="0.0" y="81" width="70" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -1700,7 +1701,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="E50337B3-A7C6-4690-81C0-0AB38004D0C0" width="245" height="206">
+        <image name="5FF469CC-B4AD-49E9-9660-A02B7F6CFF01" width="245" height="206">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -4310,6 +4311,6 @@ Al4RAAJeFAACXhkAAAAAAAAEAQAAAAAAAAA+AAAAAAAAAAAAAAAAAAJeGw
         <image name="tofu plus" width="206" height="206"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QHj-Ih-mwB"/>
+        <segue reference="FLD-CF-T5J"/>
     </inferredMetricsTieBreakers>
 </document>
